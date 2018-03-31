@@ -1,0 +1,61 @@
+#SliderTeam {
+  width: 100%;
+  height: 15em;
+  border: 1px solid black;
+}
+
+#MainBlock img {
+  margin-top: 1em;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(149,225,211,1);
+}
+#MainBlock figcaption {
+  text-align: center;
+  margin-top: 1em;
+}
+#MainBlock {
+  position: relative;
+  left: 50%;
+  width: 32em;
+  height: inherit;
+  margin-left: -16em;
+}
+
+.ElementSliderTeam {
+  position: relative;
+  margin: 1em;
+  display: inline-block;
+  float: left;
+  width: 7em;
+  height: 13em;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.ButtonSliderTeam {
+  position: relative;
+  top: 50%;
+  margin-top: -1em;
+  display: inline-block;
+  float: left;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.ButtomBlock {
+  float: left;
+  width: 2em;
+  height: inherit;
+  background-color: cornsilk;
+}
+
+#ElementsBlock {
+  float: left;
+  position: relative;
+  height: inherit;
+  width: 27.38em;
+  background-color: darkkhaki;
+}

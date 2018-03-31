@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+}
+.content {
+  height: 100vh;
+  margin: 0 auto;
+}
+header {
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 238, 0, .2), rgba(255, 0, 72, .2)), url("../img/orel.jpg"); 
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2.25em;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#TopMenu {
+    width: 31.25em;
+    height: 3.125em;
+    margin: 0 auto;
+}
+a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+#TopMenu  li {
+    display: inline-block;
+    float: left;
+    width: 7.67em;
+    height: 3.125em;
+    text-transform: uppercase;
+}
+
+#TopMenu  li a {
+    width: 3.2em;
+    height: 1.2em;
+    display: block;
+}
+
+#TopMenu  li a:hover {
+    border-bottom: 3px solid #fce38a;
+    color: #fce38a;
+}
+
+#TopMenu  li:nth-of-type(even) a {
+    width: 5em;
+}
+
+header hgroup {
+    text-align: center;
+    margin-top: 15.625em;
+}
+
+header hgroup h1 {
+    font-size: 6.25em;
+    color: white;
+    font-weight: normal;
+}
+
+header hgroup p {
+    display: block;
+    font-size: 3.125em;
+    color: white;
+    margin-bottom: 0.6em;
+}
+
+hr {
+    width: 4.5625em;
+    height: 0.1875em;
+    margin: 0 auto;
+    margin-top: 5.3125em;
+    background-color: white;
+    border: none;
+}
+
+.Link175g {
+    width: 10em;
+    height: 2.5em;
+    margin: 0 auto;
+    margin-top: 3.125em;
+    border: 0.1875em solid white;
+}
+
+.Link175g a {
+    display: table-cell;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Link175g a:hover {
+    background-color: #fce38a;
+}
+
+.AboutUs {
+    width: 60em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.TextTop {
+    padding-top: 2.5em; 
+    padding-bottom:0.5em;
+    font-size: 1em;
+    color: #333333;
+}
+
+.Caption {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #333333;
+}
+
+.Text {
+    font-size: 0.9em;
+    color: #d0d0d0;
+    text-indent: 1.5em; 
+    text-align: justify;
+}
+
+.Line {
+    background-color: #fce38a;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.ImageBlock {
+    width: 60em;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.AboutUs h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #333333;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.ImageTeam {
+    display: inline-block;
+    margin-right: 7em;
+    width: 14.7em;
+    height: 10em;
+    border: 2px solid #95e1d3;
+}
+.ImageTeam:last-child {
+    margin-right: 0;
+}
+.ImageTeam img {
+    max-width: 100%;
+    height: inherit;
+}
+
+#NewsImage {
+    margin: 0 auto;
+    width: 100%;
+    height: 13em;
+     background: linear-gradient(to top, rgba(247, 239, 138, .5), rgba(255, 92, 92, .5)), url("../img/priroda.jpg"); 
+    background-size: cover;
+    text-align: center;
+}
+#NewsImage .Text{
+    color: white;
+    text-align: center;
+}
+
+#NewsImage .TextTop {
+    color: white;
+}
+
+#NewsImage .Caption {
+    color: white;
+}
+
+#NewsTeam {
+    background-color: blueviolet;
+    width: 60em;
+    margin: 0 auto;
+    height: 49.5em;
+}
+
+.BlockInf {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 13em;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.BlockInf .Text{
+    text-align: center;
+}
+
+.BlockInf .Line {
+    background-color: #f38181;
+}
+#FotoGalarey {
+  width: 60em;
+  height: 49.5em;
+  background-color: beige;
+  margin: 0 auto;
+}
+#FotoGalarey .Text {
+  display: inline-block;
+  width: 60em;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  background-color: #f8f8f8;
+  height: 24em;
+  width: 100%;
+}
+
+#BottomMenu {
+  width: 20em; 
+  margin: 0 auto;
+  padding-top: 1em;
+}
+#BottomMenu a {
+  color: #333333;
+}
+
+#BottomMenu  li a:hover {
+    border-bottom: 3px solid #fce38a;
+    color: #fce38a;
+}
+
+#BottomMenu  li {
+  width: 100%;
+  height: 3.125em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#BottomLine {
+  margin-top: 2em;
+  background-color: #e5e5e5;
+  width: 60em;
+}
+
+address {
+  margin-top: 1em;
+  text-align: center;
+  color: #333333;
+}
+
+#Link {
+  width: 8em;
+  height: 4em;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+#Link img {
+  max-width: 50%;
+  float: left;
+}
+
+#HelpInfo {
+  width: 60em;
+  height: 37em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#HelpInfo p {
+  margin-top: 3em;
+}
+
+.HelpBlock {
+  width: 60em;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.HelpImage img {
+  max-width: 30%;
+}
+.HelpImage figcaption {
+  margin-top: 1em;
+}
+#Ticket {
+  max-width: 55%;
+}
+.HelpImage {
+  display: inline-block;
+  float: left;
+  height: 10em;
+  width: 50%;
+  margin: 0 auto;
+  margin: 2em 0;
+}

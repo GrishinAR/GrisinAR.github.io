@@ -1,0 +1,92 @@
+@media screen and (max-width: 60em) {
+  .AboutUs {
+    width: 50em;
+  }
+  
+  .ImageBlock, #FotoGalarey, #HelpInfo {
+    width: 50em;
+  }
+  
+  .ImageTeam {
+    margin-right: 2.2em;
+  }
+  header hgroup h1 {
+    font-size: 4em;
+  }
+  header hgroup p {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .AboutUs, #FotoGalarey, #HelpInfo {
+    width: 40em;
+  }
+  .ImageTeam {
+    display: block;
+    margin: 0 auto;
+  }
+  .ImageTeam:last-child {
+    margin: 0 auto;
+  }
+  .ImageBlock {
+    width: 100%;
+  }
+  header hgroup h1 {
+    font-size: 2em;
+  }
+  header hgroup p {
+    font-size: 1em;
+  }
+  #TopMenu {
+    width: 24em;
+  }
+  #TopMenu  li {
+    width: 24em;
+  }
+  
+  .HelpImage {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .HelpBlock {
+    width: 24em;
+    margin: 0 auto;
+  }
+  #HelpInfo {
+    height: 40em;
+  }
+  
+  #HelpInfo p {
+    margin-bottom: 2em;
+  }
+  
+}
+
+@media screen and (max-width: 40em) {
+  .AboutUs, #FotoGalarey, #HelpInfo {
+    width: 30em;
+  }
+  .HelpBlock {
+    width: 18em;
+  }
+  .ElementSliderTeam {
+    width: 5em;
+    margin: 0.5em;
+  }
+  
+  #ElementsBlock {
+    width: 21.38em;
+  }
+  
+  
+  
+}
+
+@media screen and (max-width: 30em) {
+  .AboutUs, #FotoGalarey, #HelpInfo  {
+    width: 20em;
+  }
+  
+}
