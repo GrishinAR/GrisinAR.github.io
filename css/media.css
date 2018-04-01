@@ -104,4 +104,8 @@
   #TopMenu {
     margin-bottom: 0.5em;
   }
+  
+  header {
+    padding-top: 0.5em;
+  }
 }
