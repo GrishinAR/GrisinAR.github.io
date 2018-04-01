@@ -86,6 +86,10 @@
   .AboutUs, #FotoGalarey, #HelpInfo  {
     width: 20em;
   }
+  
+}
+
+@media screen and (max-width: 30em) and (max-height: 40em) {
   header hgroup {
     margin-top: 5em;
   }
