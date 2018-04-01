@@ -1,8 +1,8 @@
-
-var updownElem = document.getElementById('ButtomTop');
-var pageYLabel = 0;
+(function() {
+let updownElem = document.getElementById('ButtomTop');
+let pageYLabel = 0;
 updownElem.onclick = function() {
-  var pageY = window.pageYOffset || document.documentElement.scrollTop;
+  let pageY = window.pageYOffset || document.documentElement.scrollTop;
   switch (this.className) {
     case 'up':
       pageYLabel = pageY;
@@ -18,8 +18,8 @@ updownElem.onclick = function() {
 }
 
 window.onscroll = function() {
-  var pageY = window.pageYOffset || document.documentElement.scrollTop;
-  var innerHeight = document.documentElement.clientHeight;
+  let pageY = window.pageYOffset || document.documentElement.scrollTop;
+  let innerHeight = document.documentElement.clientHeight;
   switch (updownElem.className) {
     case '':
       if (pageY > innerHeight) {
@@ -42,4 +42,6 @@ window.onscroll = function() {
     break;
   }
 }
+})()
+
   

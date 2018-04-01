@@ -76,12 +76,20 @@
   .ElementSliderTeam {
     width: 5em;
     margin: 0.5em;
+    height: 11em;
   }
   
   #ElementsBlock {
-    width: 21.38em;
+    width: 18.4em;
   }
   
+  #SliderTeam {
+    height: 13em;
+  }
+  
+  #MainBlock {
+    margin-left: -11.2em;
+  }
 }
 
 @media screen and (max-width: 30em) {
@@ -102,12 +110,9 @@
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
-  
-  
   #TopMenu {
     margin-bottom: 0.5em;
   }
-  
   header {
     padding-top: 0.5em;
   }

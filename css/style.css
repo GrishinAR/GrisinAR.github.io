@@ -3,19 +3,11 @@
     padding: 0;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {
     display: block;
 }
-
 html, body {
   overflow-x: hidden;
-}
-
-.content {
-  height: 100vh;
-  margin: 0 auto;
-  
 }
 header {
     max-width: 100%;
@@ -25,11 +17,21 @@ header {
     padding-top: 2.25em;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+header hgroup {
+    text-align: center;
+    margin-top: 15.625em;
+}
+header hgroup h1 {
+    font-size: 6.25em;
+    color: white;
+    font-weight: normal;
+}
 
-#TopMenu {
-    width: 31.25em;
-    height: 3.125em;
-    margin: 0 auto;
+header hgroup p {
+    display: block;
+    font-size: 3.125em;
+    color: white;
+    margin-bottom: 0.6em;
 }
 a {
     margin: 0 auto;
@@ -39,6 +41,36 @@ a {
 ul {
     list-style: none;
 }
+hr {
+    width: 4.5625em;
+    height: 0.1875em;
+    margin: 0 auto;
+    margin-top: 5.3125em;
+    background-color: white;
+    border: none;
+}
+footer {
+  position: relative;
+  bottom: 0px;
+  background-color: #f8f8f8;
+  height: 24em;
+  width: 100%;
+}
+
+
+.content {
+  height: 100vh;
+  margin: 0 auto;
+  
+}
+
+
+#TopMenu {
+    width: 31.25em;
+    height: 3.125em;
+    margin: 0 auto;
+}
+
 
 #TopMenu  li {
     display: inline-block;
@@ -61,33 +93,6 @@ ul {
 
 #TopMenu  li:nth-of-type(even) a {
     width: 5em;
-}
-
-header hgroup {
-    text-align: center;
-    margin-top: 15.625em;
-}
-
-header hgroup h1 {
-    font-size: 6.25em;
-    color: white;
-    font-weight: normal;
-}
-
-header hgroup p {
-    display: block;
-    font-size: 3.125em;
-    color: white;
-    margin-bottom: 0.6em;
-}
-
-hr {
-    width: 4.5625em;
-    height: 0.1875em;
-    margin: 0 auto;
-    margin-top: 5.3125em;
-    background-color: white;
-    border: none;
 }
 
 .Link175g {
@@ -228,14 +233,6 @@ hr {
 #FotoGalarey .Text {
   display: inline-block;
   width: 60em;
-}
-
-footer {
-  position: relative;
-  bottom: 0px;
-  background-color: #f8f8f8;
-  height: 24em;
-  width: 100%;
 }
 
 #BottomMenu {
