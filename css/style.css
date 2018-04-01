@@ -63,15 +63,11 @@ footer {
   margin: 0 auto;
   
 }
-
-
 #TopMenu {
     width: 31.25em;
     height: 3.125em;
     margin: 0 auto;
 }
-
-
 #TopMenu  li {
     display: inline-block;
     float: left;
@@ -79,22 +75,18 @@ footer {
     height: 3.125em;
     text-transform: uppercase;
 }
-
 #TopMenu  li a {
     width: 3.2em;
     height: 1.2em;
     display: block;
 }
-
 #TopMenu  li a:hover {
     border-bottom: 3px solid #fce38a;
     color: #fce38a;
 }
-
 #TopMenu  li:nth-of-type(even) a {
     width: 5em;
 }
-
 .Link175g {
     width: 10em;
     height: 2.5em;
@@ -102,7 +94,6 @@ footer {
     margin-top: 3.125em;
     border: 0.1875em solid white;
 }
-
 .Link175g a {
     display: table-cell;
     vertical-align: middle;
@@ -112,7 +103,6 @@ footer {
     text-align: center;
     vertical-align: middle;
 }
-
 .Link175g a:hover {
     background-color: #fce38a;
 }

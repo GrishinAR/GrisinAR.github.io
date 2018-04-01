@@ -22,7 +22,6 @@
       }
     }
   }
-
   function bias(direction) {
     let element;
     if(direction) {
