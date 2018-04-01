@@ -80,13 +80,28 @@
     width: 21.38em;
   }
   
-  
-  
 }
 
 @media screen and (max-width: 30em) {
   .AboutUs, #FotoGalarey, #HelpInfo  {
     width: 20em;
   }
+  header hgroup {
+    margin-top: 5em;
+  }
+  .Link175g {
+    margin-top: 1em;
+  }
+  header .Line {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
   
+  #TopMenu  li {
+    height: 1.4em;
+  }
+  
+  #TopMenu {
+    margin-bottom: 0.5em;
+  }
 }
