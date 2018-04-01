@@ -39,11 +39,13 @@
     font-size: 1em;
   }
   #TopMenu {
-    width: 24em;
+    width: 21em;
+    height: 1.4em;
   }
   #TopMenu  li {
-    width: 24em;
+    width: 5em;
   }
+
   
   .HelpImage {
     display: block;
@@ -101,9 +103,6 @@
     margin-bottom: 0.5em;
   }
   
-  #TopMenu  li {
-    height: 1.4em;
-  }
   
   #TopMenu {
     margin-bottom: 0.5em;
