@@ -10,12 +10,13 @@ html, body {
   overflow-x: hidden;
 }
 header {
-    max-width: 100%;
-    background: linear-gradient(to top, rgba(255, 238, 0, .2), rgba(255, 0, 72, .2)), url("../img/orel.jpg"); 
-    background-size: cover;
-    height: 100vh;
-    padding-top: 2.25em;
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 100%;
+  background: linear-gradient(to top, rgba(255, 238, 0, .2), rgba(255, 0, 72, .2)), url("../img/orel.jpg"); 
+  background-size: cover;
+  height: 100vh;
+  padding-top: 2.25em;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-height: 45em;
 }
 header hgroup {
     text-align: center;
@@ -57,7 +58,9 @@ footer {
   width: 100%;
 }
 
-
+.InfoPlayers {
+  display: none;
+}
 .content {
   height: 100vh;
   margin: 0 auto;

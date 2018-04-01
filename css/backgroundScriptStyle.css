@@ -10,6 +10,8 @@
   top: 50%;
   margin-top: -10em;
   display: none;
+  border: 2px solid #95e1d3;
+  color: #d0d0d0;
 }
 
 #BackgroundShadow {
@@ -29,5 +31,55 @@
   cursor: pointer;
   background-color: black;
   float: right;
-  margin: 0.5em 0.5em 0 0;
+  margin: 0.5em;
+  display: inline-block;
+}
+
+#ImgPlayers {
+  margin: 0.5em;
+  width: 10em;
+  height: 10em;
+  display: inline-block;
+}
+#ImgPlayers img {
+  max-width: 100%;
+  box-shadow: 0 0 20px rgba(149,225,211,1);
+}
+#InfoPlayers {
+  margin: 0.5em;
+  width: 19em;
+  height: 6em;
+}
+
+#NamePlayers {
+  display: inline-block;
+  width: 5em;
+  height: 4em;
+  margin-bottom: 6.5em;
+  position: absolute;
+  top: 0.5em;
+  left: 11.2em;
+}
+
+td {
+  width: 10em;
+}
+td:last-child {
+  width: 8em;
+  padding-left: 1em;
+}
+#WordsPlayer {
+  position: absolute;
+  width: 8.2em;
+  height: 5.5em;
+  left: 11.3em;
+  top: 5em;
+}
+
+#Name {
+  color: black;
+}
+#Words {
+  text-align: left;
+  font-size: 0.7em;
 }

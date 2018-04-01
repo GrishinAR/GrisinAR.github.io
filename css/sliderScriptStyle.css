@@ -37,8 +37,8 @@
   margin-top: -1em;
   display: inline-block;
   float: left;
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
   cursor: pointer;
 }
 
@@ -53,4 +53,8 @@
   position: relative;
   height: inherit;
   width: 27.38em;
+}
+
+.ButtonSliderTeam img:active {
+  width: 50%;
 }
